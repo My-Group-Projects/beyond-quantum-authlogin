@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-.registerBtn {
+.loginBtn {
   margin-top: 2rem;
   width: 100%;
   background-image: linear-gradient(
@@ -28,7 +28,7 @@ body {
   transition: ease-in-out 0.3s;
 }
 
-.registerBtn:hover {
+.loginBtn:hover {
   transform: scale(1.03);
 }
 
@@ -55,7 +55,7 @@ a:hover {
   font-weight: 500;
 }
 
-.loginCard {
+.signUpCard {
   width: 25rem;
   text-align: center;
   font-weight: 500;
@@ -70,4 +70,8 @@ a:hover {
 .logoFontImage{
   user-select:none;
   -webkit-user-drag: none;
+}
+
+.forgotPassword{
+  margin-top: 20px;
 }

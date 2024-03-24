@@ -29,14 +29,17 @@
                     <div class="errorMessage" th:each="error: ${#fields.errors('password')}" th:text="${error}"></div>
                 </div>
 
-                <button type="submit" class="btn btn-primary registerBtn">Login</button>
+                <button type="submit" class="btn btn-primary loginBtn">Login</button>
+
+                <p class="forgotPassword"><a th:href=@{#}>Forgot your password?</a>.</p>
+
             </div>
 
 
         </form>
     </div>
 
-    <div class="card loginCard">
+    <div class="card signUpCard">
         <div class="card-body">
             Doesn't have an account? &nbsp;<a th:href=@{#}>Sign Up</a>
         </div>
